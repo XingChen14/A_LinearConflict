@@ -1,3 +1,6 @@
+//javac -cp "jade/lib/jade.jar" *.java
+//java -cp ".;jade/lib/jade.jar" jade.Boot -gui -agents solver:LinearConflictAgent;tester:TestAgent
+
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
